@@ -1,0 +1,9 @@
+Schedule-App:
+    Main-Tasks:
+    ✔ Create EC2 with running web-scraper @done (10/11/2024, 12:11:28 AM)
+    ✔ Create DynamoDB table @done (10/11/2024, 12:11:23 AM)
+    ✔ Connect EC2 to DB and store scraped data @done (10/11/2024, 12:11:29 AM)
+    ☐ 
+    Sub-tasks:
+        ☐ Create GitHub workflow to deliver updated .py script when modified and pushed to GitHub @high 
+        ☐ 
