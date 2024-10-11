@@ -21,7 +21,6 @@ def scrape_pdf_links():
         response = requests.get(url)
         response.raise_for_status()  # Raise an exception for HTTP errors
         soup = BeautifulSoup(response.content, 'html.parser')
-        
         # Base URL to prepend if a link is relative
         base_url = 'https://iirmp.utcluj.ro'  # Replace with the base URL of your site
 
