@@ -20,4 +20,4 @@ jobs:
 
       - name: Copy files to EC2
         run: |
-          scp -o StrictHostKeyChecking=no -i key.pem -r /home/admin/scrape/web-scraper.py admin@ec2-34-253-160-214.eu-west-1.compute.amazonaws.com
+          scp -o StrictHostKeyChecking=no -i key.pem -r "/mnt/c/Users/lucac/OneDrive/Desktop/Desktop Directory/Coding various/Shedule App/schedule-app/web-scraper.py" admin@ec2-34-253-160-214.eu-west-1.compute.amazonaws.com:/home/admin/scrape/web-scraper.py
