@@ -58,6 +58,7 @@ def generate_file_hash(pdf_url):
         return file_hash
     except requests.exceptions.RequestException as e:
         logging.error(f"Error downloading PDF {pdf_url}: {e}")
+        
         return None
 
 def store_in_dynamodb(link, file_hash):
